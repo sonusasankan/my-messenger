@@ -1,0 +1,13 @@
+{
+    "name": "my-messenger-app",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "start": "npm run dev",
+        "setup": "npm run update:submodules && npm install && npm run dev",
+        "dev": "npm run server & npm run client",
+        "update:submodules": "git submodule update --init --recursive",
+        "server": "cd server && npm install && npm start",
+        "client": "cd client && npm install && npm start"
+      }
+}
