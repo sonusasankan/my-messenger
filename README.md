@@ -7,20 +7,22 @@ This is a main messenger application which includes client and server sub module
 
 If you are freshely clone the project and starting from scratch:
 
-### `npm run setup`
+`npm run setup`
 
 If you are already started working on the project and need to run the development server:
 
-### `npm run dev`
+`npm run dev`
 
-You might need to pull manually if the latest updates not fetching automatically in submodules
+<br>
+
+# You might need to pull manually if the latest updates not fetching automatically in submodules
 
 ## Client
 
-### `cd client`
-### `git pull`
+`cd client`
+`git pull`
 
 ## Server
 
-### `cd server`
-### `git pull`
+`cd server`
+`git pull`
