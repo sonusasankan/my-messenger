@@ -12,3 +12,15 @@ If you are freshely clone the project and starting from scratch:
 If you are already started working on the project and need to run the development server:
 
 ### `npm run dev`
+
+You might need to pull manually if the latest updates not fetching automatically in submodules
+
+## Client
+
+### `cd client`
+### `git pull`
+
+## Server
+
+### `cd server`
+### `git pull`
